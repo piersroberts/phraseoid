@@ -1,9 +1,10 @@
 {
   "name": "phraseoid",
-  "version": "1.0.0",
-  "main": "src/phraseoid.ts",
+  "version": "1.0.1",
+  "main": "dist/phraseoid.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "build": "tsc"
   },
   "author": "piersroberts@gmail.com",
   "license": "MIT",
